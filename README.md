@@ -27,15 +27,16 @@ Instructions for cloning can be found [here](https://docs.github.com/en/github/c
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known bugs at this time_
 
 ## License
 
-_[GPL](https://opensource.org/licenses/gpl-license)_
+_[GPL](https://opensource.org/licenses/gpl-license)_  
+
 _Copyright (c) 2021, Melissa Schatz-Miller_
 
 ## Contact Information
 
-Melissa Schatz-Miller <melissa.scmi@gmail.com>
+Melissa Schatz-Miller <melissa.scmi@gmail.com>  
+
 _Please feel free to reach out to me with suggested changes/improvements, or if you have any questions._
