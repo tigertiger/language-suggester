@@ -47,11 +47,12 @@ h5 {
 
 div.lang {
   display:none;
-  width:80%;
+  width:90%;
   box-sizing: border-box;
   padding: 4% 4% 5%;
-  margin:auto;
-  margin-top:-15%;
+  margin:-15% 0% 0% 0%;
+  /* margin-top:-15%; */
+  font-size:1.5em;
 }
 
 .button {
@@ -77,11 +78,26 @@ div.lang {
   display:none;
 }
 
+#miniWrap {
+  display:none;
+}
+
 .bubble {
   height: 100px;
   width: 100px;
   border-radius:50%;
   background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000, #fb0094, #0000ff, #00ff00,#ffff00, #ff0000);
+  background-image:url(../img/bubble.png);
+  background-size:100%;
+  background-repeat:no-repeat;
+  z-index: -1;
+  opacity: 0;
+}
+
+.miniBubble {
+  height: 20px;
+  width: 20px;
+  border-radius:50%;
   z-index: -1;
   opacity: 0;
 }
@@ -94,12 +110,12 @@ div.lang {
 }
 
 @-webkit-keyframes bubbleOne {
-  0% {opacity: 0.2;}
+  0% {opacity: 1;}
   100% {opacity: 0;}
 }
 
 @keyframes bubbleOne {
-  0% {opacity: 0.2;}
+  0% {opacity: 1;}
   100% {opacity: 0;}
 }
 
@@ -110,12 +126,12 @@ div.lang {
 }
 
 @-webkit-keyframes bubbleTwo {
-  0% {opacity: 0.2;}
+  0% {opacity: 1;}
   100% {opacity: 0;}
 }
 
 @keyframes bubbleTwo {
-  0% {opacity: 0.2;}
+  0% {opacity: 1;}
   100% {opacity: 0;}
 }
 
@@ -127,11 +143,66 @@ div.lang {
 }
 
 @-webkit-keyframes bubbleThree {
-  0% {opacity: 0.2;}
+  0% {opacity: 1;}
   100% {opacity: 0;}
 }
 
 @keyframes bubbleThree {
-  0% {opacity: 0.2;}
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+/* mini bubbles */
+
+#miniOne {
+  float:left;
+  margin: 300px 0px 0px 200px;
+  -webkit-animation: miniOne 3s ease-out infinite normal;
+  animation: miniOne 3s ease-out infinite normal;
+  animation-direction:alternate;
+}
+
+@-webkit-keyframes miniOne {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes miniOne {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#miniTwo {
+  margin:80px 0px 0px 100px;
+  -webkit-animation: miniTwo 2s ease-out infinite normal;
+  animation: miniTwo 2s ease-out infinite normal;
+  animation-direction:alternate;
+}
+
+@-webkit-keyframes miniTwo {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes miniTwo {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+#miniThree {
+  float:right;
+  margin: 0px 100px 0px 0px;
+  -webkit-animation: miniThree 1.5s ease-out infinite normal;
+  animation: miniTwo 1.5s ease-out infinite normal;
+  animation-direction:alternate;
+}
+
+@-webkit-keyframes miniThree {
+  0% {opacity: 1;}
+  100% {opacity: 0;}
+}
+
+@keyframes miniThree {
+  0% {opacity: 1;}
   100% {opacity: 0;}
 }

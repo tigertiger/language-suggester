@@ -27,16 +27,17 @@ $(document).ready(function() {
     }
     $("#output").text(result);
     $(".userName").text(userNameInput);
-    $(".lang").css("background-color", favColorInput);
+    $(".miniBubble").css("background-color", favColorInput);
 
     $("#bubbleWrap").show();
+    $("#miniWrap").show();
     $("#submit").hide();
     $("#again").show();
 
     $("#again").click(function() {
       location.reload();
     });
-    
+
     function blink_text() {
       $('#blink').fadeOut(250);
       $('#blink').fadeIn(250);
