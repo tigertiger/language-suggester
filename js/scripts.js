@@ -1,7 +1,7 @@
 // Business Logic goes up here??
 
 function avg(lazyInput, breakfastInput, friendsInput) {
-  return (lazyInput + breakfastInput + friendsInput) / 3;
+  return Math.ceil((lazyInput + breakfastInput + friendsInput) / 3);
 }
 // UI down below
 
@@ -23,5 +23,12 @@ $(document).ready(function() {
       $("#python").show();
     }
     $("#output").text(result);
+
+    $("#submit").hide();
+    $("#again").show();
+
+    $("#again").click(function() {
+      location.reload();
+    });
   });
 });

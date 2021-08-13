@@ -8,9 +8,11 @@
   <title>Programming Language Suggester</title>
 </head>
 <body>
+
   <div class="container">
     <h1>How Do I Know What Language to Learn?</h1>
     <p>This page will use cutting-edge AI technology to convert your answers to some of life's most mundane questions into a perfect suggestion for what programming language will best suit you.</p>
+
     <form id="langSelect">
       <div class="form-group">
         <label for="favColor">What's your favorite color?</label>
@@ -79,12 +81,18 @@
           </label>
         </div>
       </div>
-      <button type="submit" class="button">Submit</button>
+      <button id="submit" type="submit" class="button">Submit</button>
+      <button id="again" class="button">Try Again</button>
     </form>
-    <div id="cSharp" class="lang">C#</div>
-    <div id="ruby" class="lang">Ruby</div>
-    <div id="python" class="lang">Python</div>
-    <div id="output"></div>
+
+    <div id="resultsBlock">
+      <div id="cSharp" class="lang">C#</div>
+      <div id="ruby" class="lang">Ruby</div>
+      <div id="python" class="lang">Python</div>
+      <div id="output"></div>
+    </div>
+
   </div>
+
 </body>
 </html>
