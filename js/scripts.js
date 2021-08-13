@@ -1,7 +1,6 @@
-// Business Logic goes up here??
 
 function avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput) {
-  return Math.ceil((lazyInput + breakfastInput + friendsInput + dishesInput + parentsInput + sleepInput) / 6);
+  return Math.round((lazyInput + breakfastInput + friendsInput + dishesInput + parentsInput + sleepInput) / 6);
 }
 
 function blink_text() {
@@ -10,7 +9,8 @@ function blink_text() {
 }
 setInterval(blink_text, 500);
 
-// UI down below
+
+
 
 $(document).ready(function() {
   $("form#langSelect").submit(function(event) {
@@ -32,11 +32,11 @@ $(document).ready(function() {
     console.log(sleepInput);
 
     let result = avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput);
-    if (result === 3) {
+    if (result === 1 || result === 2) {
       $("#cSharp").show();
-    } else if (result === 1) {
+    } else if (result === 6 || result === 5) {
       $("#ruby").show();
-    } else if (result === 2) {
+    } else if (result === 3 || result === 4) {
       $("#python").show();
     }
     $("#output").text(result);
