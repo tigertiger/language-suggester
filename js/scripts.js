@@ -8,6 +8,8 @@ function avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput,
 $(document).ready(function() {
   $("form#langSelect").submit(function(event) {
     event.preventDefault();
+
+    const userNameInput = $("input#userName").val();
     const lazyInput = parseInt($("input:radio[name=lazy]:checked").val());
     console.log(lazyInput);
     const breakfastInput = parseInt($("input:radio[name=breakfast]:checked").val());
@@ -30,7 +32,8 @@ $(document).ready(function() {
       $("#python").show();
     }
     $("#output").text(result);
-
+    $(".userName").text(userNameInput);
+    
     $("#submit").hide();
     $("#again").show();
 
