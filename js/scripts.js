@@ -3,6 +3,13 @@
 function avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput) {
   return Math.ceil((lazyInput + breakfastInput + friendsInput + dishesInput + parentsInput + sleepInput) / 6);
 }
+
+function blink_text() {
+  $('#blink').fadeOut(250);
+  $('#blink').fadeIn(250);
+}
+setInterval(blink_text, 500);
+
 // UI down below
 
 $(document).ready(function() {

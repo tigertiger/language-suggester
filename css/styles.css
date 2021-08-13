@@ -13,6 +13,34 @@ body {
   border: 1px solid #33ff00;
 }
 
+#favColor {
+  height:50px;
+  width:60px;
+  cursor:crosshair;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h5 {
+  font-weight:bold;
+  font-size:1.1em;
+}
+
+#blink {
+  margin:0px 0px 0px -6px;
+  font-size:0.9em;
+}
+
+.form-group {
+  padding:0px 0px 30px;
+}
+
+#userName {
+  width:300px;
+}
+
 #intro {
   margin: 0% 0% 10%;
 }
@@ -24,6 +52,21 @@ div.lang {
   padding: 4% 4% 5%;
   margin:auto;
   margin-top:-15%;
+}
+
+.button {
+  background-color: #33ff00;
+  color:#000000;
+  border: hidden;
+  padding: 10px 20px;
+  font-weight:bold;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color:#000;
+  color:#33ff00;
+  border:1px solid #33ff00;
 }
 
 #again {
