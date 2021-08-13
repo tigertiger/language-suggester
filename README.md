@@ -1,4 +1,6 @@
 
+![Rainbow Circle Reading Which Programming Language is Right for Me](/img/title.png)
+
 # _Programming Language Suggester_
 
 #### _Tell us a little about yourself, and we'll tell you what programming language is right for you._
