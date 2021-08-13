@@ -7,10 +7,10 @@ body {
 
 .container {
   width:64%;
-  margin:auto;
-  padding: 4% 3% 10%;
+  margin:0px auto 100px;
+  padding: 4% 3% 8%;
   box-sizing: border-box;
-  border: 1px solid #33ff00;
+  box-shadow: 40px 40px 15px 5px #3a70078e;
 }
 
 #favColor {

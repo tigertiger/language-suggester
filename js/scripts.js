@@ -40,11 +40,10 @@ $(document).ready(function() {
       location.reload();
     });
 
-    function blink_text() {
-      $('#blink').fadeOut(250);
-      $('#blink').fadeIn(250);
-    }
-    setInterval(blink_text, 500);
-
   });
+  function blink_text() {
+    $('#blink').fadeOut(250);
+    $('#blink').fadeIn(250);
+  }
+  setInterval(blink_text, 500);
 });

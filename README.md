@@ -13,9 +13,7 @@
 
 ## Description
 
-_This webform allows users to input basic information about their day to day lifestyle and returns a suggestion of which programming language they should learn.
-
-{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This webform allows users to input basic information about their day to day lifestyle and returns a suggestion of which programming language they should learn. This form is for entertainment purposes only, and is not recommended as a way to make a serious decision._
 
 ## Setup/Installation Requirements
 
