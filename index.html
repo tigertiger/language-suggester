@@ -10,8 +10,10 @@
 <body>
 
   <div class="container">
+    <div id="intro">
     <h1>How Do I Know Which Programming Language to Learn?</h1>
-    <p>This page will use cutting-edge AI technology to convert your answers to some of life's most mundane questions into a perfect suggestion for what programming language will best suit you.</p>
+    <p>This page uses cutting-edge AI technology to convert your answers to some of life's most mundane questions into a perfect suggestion for the programming language that will best suit you. Give it a shot.</p>
+    </div>
 
     <form id="langSelect">
       <div class="form-group">
@@ -153,10 +155,15 @@
     </form>
 
     <div id="resultsBlock">
+      <div id="bubbleWrap">
+        <div class="bubble" id="bubbleOne"></div>
+        <div class="bubble" id="bubbleTwo"></div>
+        <div class="bubble" id="bubbleThree"></div>
+      </div>
       <div id="cSharp" class="lang"><p>Hi, <span class="userName"></span>! We recommend you try studying C#.</p></div>
       <div id="ruby" class="lang"><p>Hi, <span class="userName"></span>! Why not try out Ruby?</p></div>
       <div id="python" class="lang"><p>Hi, <span class="userName"></span>! We think Python is the language for you.</div>
-      <div id="output"></div>
+      <div id="output"></block>
     </div>
 
   </div>

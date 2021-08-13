@@ -10,6 +10,7 @@ $(document).ready(function() {
     event.preventDefault();
 
     const userNameInput = $("input#userName").val();
+    const favColorInput = $("#favColor").val();
     const lazyInput = parseInt($("input:radio[name=lazy]:checked").val());
     console.log(lazyInput);
     const breakfastInput = parseInt($("input:radio[name=breakfast]:checked").val());
@@ -33,7 +34,9 @@ $(document).ready(function() {
     }
     $("#output").text(result);
     $(".userName").text(userNameInput);
-    
+    $(".lang").css("background-color", favColorInput);
+
+    $("#bubbleWrap").show();
     $("#submit").hide();
     $("#again").show();
 
