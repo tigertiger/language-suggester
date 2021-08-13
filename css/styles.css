@@ -45,8 +45,9 @@ div.lang {
 
 #bubbleOne {
   margin:auto;
-  -webkit-animation: bubbleOne 4s ease-out infinite normal;
-  animation: bubbleOne 4s ease-out infinite normal;
+  -webkit-animation: bubbleOne 3s ease-out infinite normal;
+  animation: bubbleOne 3s ease-out infinite normal;
+  animation-direction:alternate;
 }
 
 @-webkit-keyframes bubbleOne {
@@ -60,8 +61,9 @@ div.lang {
 }
 
 #bubbleTwo {
-  -webkit-animation: bubbleTwo 4s ease-out infinite normal;
-  animation: bubbleTwo 4s ease-out infinite normal;
+  -webkit-animation: bubbleTwo 2s ease-out infinite normal;
+  animation: bubbleTwo 2s ease-out infinite normal;
+  animation-direction:alternate;
 }
 
 @-webkit-keyframes bubbleTwo {
@@ -76,8 +78,9 @@ div.lang {
 
 #bubbleThree {
   float:right;
-  -webkit-animation: bubbleThree 4s ease-out infinite normal;
-  animation: bubbleTwo 4s ease-out infinite normal;
+  -webkit-animation: bubbleThree 1.5s ease-out infinite normal;
+  animation: bubbleTwo 1.5s ease-out infinite normal;
+  animation-direction:alternate;
 }
 
 @-webkit-keyframes bubbleThree {
