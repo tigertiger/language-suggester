@@ -1,6 +1,7 @@
+![Title image "Which Programming Language is Best for Me?"](../language-suggester/img/title.png)
 # _Programming Language Suggester_
 
-#### _{Brief description of application}_
+#### _Tell us a little about yourself, and we'll tell you what programming language is right for you._
 
 #### By _**Melissa Schatz-Miller**_
 
@@ -12,23 +13,19 @@
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_This webform allows users to input basic information about their day to day lifestyle and returns a suggestion of which programming language they should learn.
+
+{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-* _Clone [this repository](https://github.com/tigertiger/REPONAME) to an empty folder or to your desktop.  
+* _Clone [this repository](https://github.com/tigertiger/language-suggester) to an empty folder or to your desktop.  
 Instructions for cloning can be found [here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository)._
-* _Navigate to the top level of the REPONAME directory_
+* _Navigate to the top level of the language-suggester directory_
 * _Open index.html in your browser_
-* _You can also access the live site at [https://tigertiger.github.io/REPONAME](https://tigertiger.github.io/REPONAME/)_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Input your name and your answers to the required questions_
+* _Click submit and reap the rewards (that is: our suggestion)_
+* _You can also access the live site at [https://tigertiger.github.io/language-suggester](https://tigertiger.github.io/language-suggester/)_
 
 ## Known Bugs
 
@@ -40,8 +37,7 @@ _{Leave nothing to chance! You want it to be easy for potential users, employers
 _[GPL](https://opensource.org/licenses/gpl-license)_
 _Copyright (c) 2021, Melissa Schatz-Miller_
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
-
 ## Contact Information
 
 Melissa Schatz-Miller <melissa.scmi@gmail.com>
+_Please feel free to reach out to me with suggested changes/improvements, or if you have any questions._
