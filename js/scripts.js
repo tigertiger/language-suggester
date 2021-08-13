@@ -25,13 +25,15 @@ $(document).ready(function() {
     } else if (result === 3 || result === 4) {
       $("#python").show();
     }
-    $("#output").text(result);
+ 
     $(".userName").text(userNameInput);
     $(".miniBubble").css("background-color", favColorInput);
 
+    $("#langSelect").hide();
+    $("#intro").hide();
+    $("#chosen").show();
     $("#bubbleWrap").show();
     $("#miniWrap").show();
-    $("#submit").hide();
     $("#again").show();
 
     $("#again").click(function() {

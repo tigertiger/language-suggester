@@ -45,14 +45,19 @@ h5 {
   margin: 0% 0% 10%;
 }
 
+#chosen {
+  display:none;
+}
+
 div.lang {
   display:none;
-  width:90%;
+  width:100%;
   box-sizing: border-box;
   padding: 4% 4% 5%;
-  margin:-15% 0% 0% 0%;
+  margin:-25% 20% 0%;
   /* margin-top:-15%; */
   font-size:1.5em;
+  float:left;
 }
 
 .button {
@@ -70,8 +75,15 @@ div.lang {
   border:1px solid #33ff00;
 }
 
+#againWrap {
+  width:100%;
+  margin:auto;
+}
+
 #again {
   display:none;
+  float:left;
+  padding-bottom:100px;
 }
 
 #bubbleWrap {
@@ -151,8 +163,6 @@ div.lang {
   0% {opacity: 1;}
   100% {opacity: 0;}
 }
-
-/* mini bubbles */
 
 #miniOne {
   float:left;
