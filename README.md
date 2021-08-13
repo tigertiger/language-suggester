@@ -1,5 +1,5 @@
 
-![Rainbow Circle Reading Which Programming Language is Right for Me](/img/title.png)
+![Rainbow Circle Reading Which Programming Language is Right for Me](/img/title.png | width=300)
 
 # _Programming Language Suggester_
 
