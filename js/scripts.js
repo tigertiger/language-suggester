@@ -19,7 +19,7 @@ $(document).ready(function() {
     const saturdayInput = parseInt($("input:radio[name=saturday]:checked").val());
 
     let result = avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput, saturdayInput);
-    if (result <= 3) {
+      if (result <= 3) {
       $("#cSharp").show();
     } else if (result >= 5) {
       $("#ruby").show();
@@ -27,15 +27,6 @@ $(document).ready(function() {
       $("#python").show();
     }
 
-    // let result = avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput, saturdayInput);
-    // if (result === 1 || result === 2) {
-    //   $("#cSharp").show();
-    // } else if (result === 6 || result === 5) {
-    //   $("#ruby").show();
-    // } else if (result === 3 || result === 4) {
-    //   $("#python").show();
-    // }
- console.log(result);
     $(".userName").text(userNameInput);
     $(".miniBubble").css("background-color", favColorInput);
 
