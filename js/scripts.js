@@ -1,6 +1,6 @@
 
-function avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput) {
-  return Math.round((lazyInput + breakfastInput + friendsInput + dishesInput + parentsInput + sleepInput) / 6);
+function avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput, saturdayInput) {
+  return Math.round((lazyInput + breakfastInput + friendsInput + dishesInput + parentsInput + sleepInput + saturdayInput) / 3.5);
 }
 
 
@@ -16,8 +16,9 @@ $(document).ready(function() {
     const dishesInput = parseInt($("input:radio[name=dishes]:checked").val());
     const parentsInput = parseInt($("input:radio[name=parents]:checked").val());
     const sleepInput = parseInt($("input:radio[name=sleep]:checked").val());
+    const saturdayInput = parseInt($("input:radio[name=saturday]:checked").val());
 
-    let result = avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput);
+    let result = avg(lazyInput, breakfastInput, friendsInput, dishesInput, parentsInput, sleepInput, saturdayInput);
     if (result === 1 || result === 2) {
       $("#cSharp").show();
     } else if (result === 6 || result === 5) {
@@ -25,7 +26,7 @@ $(document).ready(function() {
     } else if (result === 3 || result === 4) {
       $("#python").show();
     }
- 
+ console.log(result);
     $(".userName").text(userNameInput);
     $(".miniBubble").css("background-color", favColorInput);
 
